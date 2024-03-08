@@ -1,8 +1,14 @@
-import React from 'react';
+import { About, Header, Skills, Footer } from './containers';
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='app'>
+      <Header /> 
+      <About /> 
+      <Skills /> 
+      <Footer /> 
+    </div>
   );
 }
 
