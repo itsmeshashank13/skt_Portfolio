@@ -1,5 +1,6 @@
 import { About, Header, Skills, Footer } from './containers';
 import { Navbar } from './components';
+import './App.scss';
 
 
 const App = () => {
