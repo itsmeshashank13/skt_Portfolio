@@ -54,11 +54,17 @@
             text-decoration: none;
             text-transform: uppercase;
             flex-direction: column;
-            font-weight: 600;
+            font-weight: 500;
             transition: all 0.3s ease-in-out;
 
             &:hover {
                 color: var(--secondary-color);
+            }
+        }
+
+        &:hover {
+            div {
+                background: var(--secondary-color);
             }
         }
     }
