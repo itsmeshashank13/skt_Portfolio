@@ -1,8 +1,13 @@
+import { motion } from 'framer-motion';
+
+import { images } from '../../constants';
 import './Header.scss';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div>
+      
+    </div>
   );
 }
 
